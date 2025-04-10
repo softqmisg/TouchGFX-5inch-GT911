@@ -1,0 +1,429 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 2,
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 217,
+              "Green": 2,
+              "Blue": 213
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 55,
+            "Y": 31,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_F15A",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge1",
+            "X": 310,
+            "Y": 42,
+            "Width": 240,
+            "Height": 240,
+            "Preset": "alternate_theme\\presets\\gauges\\medium\\active_filled.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_gauge_medium_backgrounds_active_filled.png",
+            "RotationCenterX": 119.0,
+            "RotationCenterY": 119.0,
+            "StartAngle": -117.0,
+            "EndAngle": 121.0,
+            "RangeMax": 100.0,
+            "InitialValue": 60.0,
+            "UseAnimation": true,
+            "Easing": "Linear",
+            "EasingOption": "In",
+            "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_medium_needles_rough.png",
+            "NeedleRotationCenterX": 9.0,
+            "NeedleRotationCenterY": 64.0,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "UseArc": true,
+            "FileNameArc": "__generated\\alternate_theme_images_widgets_gauge_medium_fillers_swoop.png",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "SetArcPosition": true,
+            "ArcX": 23.0,
+            "ArcY": 23.0,
+            "ArcWidth": 192.0,
+            "ArcHeight": 142.0,
+            "ArcRadius": 100.0,
+            "ArcLineWidth": 99.0,
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 537,
+            "Y": 290,
+            "Width": 233,
+            "Height": 156,
+            "DataSeed": 256252321,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphWrapOverwrite",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ],
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_EK84",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_7IVT",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 615,
+            "Y": 56,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_active.png",
+            "IconPressed": "__generated\\icon_theme_images_action_account_balance_50_50_53FF19.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_communication_add_ic_call_50_50_D60B0B.svg.png",
+            "IconX": 30,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_active.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton1",
+            "X": 79,
+            "Y": 150,
+            "Width": 36,
+            "Height": 36,
+            "Selected": true,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon2",
+            "X": 626,
+            "Y": 143,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_action.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_50_50_012E00.svg.png",
+            "IconX": 30,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "AnalogClock",
+            "Name": "analogClock1",
+            "X": 61,
+            "Y": 222,
+            "Width": 240,
+            "Height": 240,
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_analogclock_backgrounds_small_glossy_gradient.png",
+            "RotationCenterX": 120,
+            "RotationCenterY": 120,
+            "Preset": "alternate_theme\\presets\\analogclock\\small_glossy_gradient.json",
+            "UseAnimation": true,
+            "Duration": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "ClockHands": [
+              {
+                "Type": "HourClockHand",
+                "FileNameHandImage": "__generated\\alternate_theme_images_widgets_analogclock_hands_small_hour_glossy_gradient.png",
+                "RotationCenterX": 9,
+                "RotationCenterY": 69
+              },
+              {
+                "Type": "MinuteClockHand",
+                "FileNameHandImage": "__generated\\alternate_theme_images_widgets_analogclock_hands_small_minute_glossy_gradient.png",
+                "RotationCenterX": 10,
+                "RotationCenterY": 87
+              },
+              {
+                "Type": "SecondClockHand",
+                "FileNameHandImage": "__generated\\alternate_theme_images_widgets_analogclock_hands_small_second_glossy_gradient.png",
+                "RotationCenterX": 2,
+                "RotationCenterY": 100
+              }
+            ],
+            "InitialHour": 10,
+            "InitialMinute": 10
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 1
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 2
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 189,
+              "Green": 13,
+              "Blue": 13
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 364,
+            "Y": 266,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_round_active.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_round_active.json"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 326,
+            "Y": 34,
+            "Width": 187,
+            "Height": 200,
+            "RelativeFilename": "logo_new_color_small.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 1
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 2
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Key": 1,
+        "Name": "KEY1"
+      },
+      {
+        "Key": 2,
+        "Name": "KEY2"
+      }
+    ],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H743/753",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../touchgfx_5inch_extButton_800x48.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.23.0"
+}
